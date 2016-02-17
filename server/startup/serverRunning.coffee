@@ -1,4 +1,5 @@
 Meteor.startup ->
+	console.log('server startup')
 	Meteor.setTimeout ->
 		msg = [
 			"     Version: #{RocketChat.Info.version}"

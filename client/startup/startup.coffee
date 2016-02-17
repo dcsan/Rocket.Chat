@@ -55,3 +55,5 @@ Meteor.startup ->
 
 		setLanguage userLanguage
 	)
+
+	console.log('done startup')
