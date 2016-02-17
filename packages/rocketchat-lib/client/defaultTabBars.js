@@ -33,3 +33,12 @@ RocketChat.TabBar.addButton({
 	template: 'uploadedFilesList',
 	order: 3
 });
+
+RocketChat.TabBar.addButton({
+	groups: ['channel', 'privategroup', 'directmessage'],
+	id: 'ribot-editor',
+	i18nTitle: 'Ribot_editor_tab',
+	icon: 'octicon octicon-file-symlink-directory',
+	template: 'uploadedFilesList',
+	order: 1
+});

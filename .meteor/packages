@@ -49,16 +49,16 @@ rocketchat:custom-oauth
 rocketchat:emojione
 rocketchat:favico
 rocketchat:file
-rocketchat:github-enterprise
-rocketchat:gitlab
+# rocketchat:github-enterprise
+# rocketchat:gitlab
 rocketchat:highlight
-rocketchat:importer
-rocketchat:importer-hipchat
-rocketchat:importer-slack
-rocketchat:ldap
-rocketchat:livechat
+# rocketchat:importer
+# rocketchat:importer-hipchat
+# rocketchat:importer-slack
+# rocketchat:ldap
+
 rocketchat:logger
-rocketchat:mailer
+# rocketchat:mailer
 rocketchat:markdown
 rocketchat:me
 rocketchat:mentions
@@ -73,8 +73,8 @@ rocketchat:slashcommands-join
 rocketchat:slashcommands-kick
 rocketchat:slashcommands-leave
 rocketchat:slashcommands-mute
-rocketchat:spotify
-rocketchat:statistics
+# rocketchat:spotify
+# rocketchat:statistics
 rocketchat:theme
 rocketchat:tutum
 rocketchat:ui
@@ -86,11 +86,7 @@ rocketchat:ui-master
 rocketchat:ui-message
 rocketchat:ui-sidenav
 rocketchat:version
-rocketchat:webrtc
-rocketchat:wordpress
-#rocketchat:chatops
-#rocketchat:hubot
-#rocketchat:irc
+# rocketchat:webrtc
 
 konecty:change-case
 konecty:delayed-task
@@ -136,5 +132,17 @@ yasinuslu:blaze-meta
 # velocity:html-reporter
 rocketchat:assets
 rocketchat:integrations
-rocketchat:message-attachments
-rocketchat:api
+
+# rocketchat:message-attachments
+# rocketchat:api
+
+
+### optional packages
+
+# rocketchat:wordpress
+#rocketchat:chatops
+#rocketchat:hubot
+#rocketchat:irc
+# rocketchat:livechat
+
+dcsan:riboteditor
